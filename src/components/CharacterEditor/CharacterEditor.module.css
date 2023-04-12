@@ -6,8 +6,17 @@
 .maxWidthWrapper {
 }
 
+.backBar {
+  height: 40%;
+  width: 100%;
+  position: fixed;
+  background-color: hsl(195deg, 20%, 86%);
+  bottom: 0px;
+}
+
 .header {
   padding-bottom: 64px;
+  max-width: 65%; 
 }
 
 .title {
@@ -24,7 +33,17 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  min-height: 500px;
+  width: 35%;
+  right: 0;
+  top: 128px;
+  bottom: 64px;
 }
 
 .controlColumn {
+  max-width: 50%;
+  overflow: auto;
+  white-space: nowrap;
+  isolation: isolate;
 }
